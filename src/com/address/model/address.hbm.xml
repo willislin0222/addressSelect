@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.address.model.AddressVO" table="address" >
+        
+        <id name="id" column="id"></id>
+        <property name="city" column="city" />
+        <property name="town" column="town" />
+        <property name="road" column="road" />
+        
+    </class>
+</hibernate-mapping>
